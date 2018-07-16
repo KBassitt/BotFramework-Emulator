@@ -56,7 +56,7 @@ export class BotNotOpenExplorer extends React.Component<{}, {}> {
           >
             <ExpandCollapseContent>
               <div className={ styles.explorerEmptyState }>
-                <span className={ styles.emptyStateText }>You have not yet selected a bot.</span>
+                <span className={ styles.emptyStateText }>You have not yet opened a bot.</span>
                 <PrimaryButton text={ 'Open Bot' } className={ styles.openBot } onClick={ this.onOpenBotClick }/>
               </div>
             </ExpandCollapseContent>
